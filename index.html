@@ -1,13 +1,12 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>HCI Project</title>
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/white-heart.png" /> -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -16,27 +15,47 @@
       <div class="container">
         <div class="row">
           <img src="img/globe.png" alt-text="Globe">
+        </div>
+        <div class="row">
           <h1> I'm moving from </h1>
-          <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Country
-            <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li>United States</li>
-              <li>Switzerland</li>
-              <li>Japan</li>
-              <li>Australia</li>
-            </ul>
+          <div class="options">
+            <div class="col-md-2 col-md-offset-3">
+              <a href="#">
+                <img src="img/switzerland.png" alt="Swiss Flag">
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="#">
+                <img src="img/america.png" alt="Swiss Flag">
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="#">
+                <img src="img/japan.png" alt="Swiss Flag">
+              </a>
+            </div>
           </div>
+        </div>
+        <div class="row">
           <h1> to </h1>
-          <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Country
-            <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li>United States</li>
-              <li>Switzerland</li>
-              <li>Japan</li>
-              <li>Australia</li>
-            </ul>
+        </div>
+        <div class="row">
+          <div class="options">
+            <div class="col-md-2 col-md-offset-3">
+              <a href="switzerland.html">
+                <img src="img/switzerland.png" alt="Swiss Flag">
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="switzerland.html">
+                <img src="img/america.png" alt="Swiss Flag">
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="switzerland.html">
+                <img src="img/japan.png" alt="Swiss Flag">
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -63,8 +82,5 @@
         </div>
       </div>
     </div>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -17,13 +17,28 @@ img {
 
   background-size: 100% 100%;
   background-color: #6ed3cf;
+  text-align: center;
+}
 
+#hero h1 {
   text-align: center;
   color: #FFFFFF;
 }
 
 #hero img {
   width: 30%;
+}
+
+#hero .options img{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#hero .options a:visted {
+  background-color: #A5D36E;
 }
 
 #explanation {
