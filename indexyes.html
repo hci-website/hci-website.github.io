@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HCI Project: Switzerland</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="notification">
+      <div class="container">
+        <div class="row">
+          <p> Your report has been filed! </p>
+        </div>
+      </div>
+    </div>
+    <div id="report">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-11">
+            <h1>Report a problem</h1>
+          </div>
+          <div class="col-md-1">
+            <a href="index.html" class="btn btn-info pull-right home" role="button">Home</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="countrySelectorReport">
+            <div class="col-md-3">
+              <div class="row">
+                <img src="img/switzerland.png" alt-text="Swiss Flag">
+              </div>
+              <a href="#">Change Country?</a>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <a href="#" class="btn btn-info pull-right" role="button">Submit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

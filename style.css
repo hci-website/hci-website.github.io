@@ -12,8 +12,8 @@ img {
   width: 100%;
   height: 100%;
   min-height: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 7%;
 
   background-size: 100% 100%;
   background-color: #6ed3cf;
@@ -41,10 +41,21 @@ img {
   background-color: #A5D36E;
 }
 
+#hero .options .highlight {
+  background-color: #A5D36E;
+}
+
+#hero .options .gray {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-filter: opacity(.3);
+  filter: opacity(.3);
+}
+
 #explanation {
   background-color: #7146a0;
   color: #FFFFFF;
-  padding-bottom: 50px;
+  padding-bottom: 1%;
 }
 
 #base {
@@ -54,4 +65,39 @@ img {
 
 #base .right-align {
   text-align: right;
+}
+
+.country {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding-bottom: 10%;
+
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.addMore {
+  background-color: #e1e8f0;
+  padding-top:10px;
+}
+
+#report .countrySelectorReport{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#report .countrySelectorReport img{
+  padding-bottom: 3%;
+}
+
+#report .home {
+  margin-top: 40%;
+}
+
+#notification {
+  background-color: #d3d3d3;
+  padding-top: .5%;
+  color: green;
 }
